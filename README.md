@@ -43,4 +43,6 @@ create extension pgcrypto schema ext;
 create extension pg_cron schema ext; 
 ```
 if files for tablespaces were already created you need this also:
+```sql
 grant all on tablespace <tablespace_name> to <user_name>;
+```
